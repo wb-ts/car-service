@@ -1,0 +1,23 @@
+.footerBottomOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem 0rem;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--theme);
+      padding: 0.5rem;
+      border-radius: 99px;
+    }
+  }
+}

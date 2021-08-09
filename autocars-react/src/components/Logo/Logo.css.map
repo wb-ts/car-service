@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,WAAW;EACpB,GAAG,EAAE,IAAI;CAMV;;AAJE,AAAD,YAAQ,CAAC;EACP,WAAW,EAAE,MAAM;EACnB,SAAS,ECJH,MAAM;CDKb",
+    "sources": [
+        "Logo.scss",
+        "../../styles/_fontSizes.scss"
+    ],
+    "names": [],
+    "file": "Logo.css"
+}

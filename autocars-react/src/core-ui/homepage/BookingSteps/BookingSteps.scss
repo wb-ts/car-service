@@ -1,0 +1,30 @@
+@import "../../../styles/responsive";
+
+.bookingSteps {
+  margin-top: 8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &__title {
+    padding: 1rem;
+
+    &__text {
+      text-align: center;
+      color: var(--theme);
+    }
+  }
+  &__steps {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+
+    @include screen-sm {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}

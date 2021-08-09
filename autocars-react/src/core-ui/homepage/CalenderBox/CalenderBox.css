@@ -1,0 +1,108 @@
+.calenderBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.calenderBox__container {
+  -webkit-box-shadow: 0 1.3px 12px -3px rgba(109, 97, 97, 0.4);
+          box-shadow: 0 1.3px 12px -3px rgba(109, 97, 97, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.479);
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+@media (min-width: 640px) {
+  .calenderBox__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .calenderBox__container {
+    padding: 1rem;
+  }
+}
+
+.calenderBox__container__line {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .calenderBox__container__line {
+    display: block;
+    height: 20px;
+    width: 1px;
+    background-color: var(--theme);
+  }
+}
+
+.calenderBox__container__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.3rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.calenderBox__container__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 480px) {
+  .calenderBox__container__date {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .calenderBox__container__date {
+    font-size: initial;
+  }
+}
+
+.calenderBox__container__date__option {
+  cursor: pointer;
+  min-width: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.3rem;
+}
+/*# sourceMappingURL=CalenderBox.css.map */

@@ -1,0 +1,28 @@
+@import "../../../styles/fontSizes";
+
+.bookingStepsOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  &__icon {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1.3px 12px -3px rgba(255, 255, 255, 0.4);
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+
+    &__description {
+      font-size: $fnt-xs;
+      max-width: 200px;
+      text-align: center;
+    }
+  }
+}

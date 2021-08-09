@@ -1,0 +1,35 @@
+@import "../../../../styles/responsive";
+
+.sideMenu {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.911);
+  padding: 1rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 250px;
+  z-index: 100;
+
+  @include screen-md {
+    display: none;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+
+    &__menuIcon {
+      svg {
+        fill: var(--theme);
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__options {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

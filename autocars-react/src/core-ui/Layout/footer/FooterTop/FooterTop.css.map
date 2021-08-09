@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,UAAU;EACvB,GAAG,EAAE,IAAI;CAgBV;;ACGC,MAAM,EAAE,SAAS,EAAE,MAAM;EDvB3B,AAAA,UAAU,CAAC;IAOP,cAAc,EAAE,GAAG;GAatB;;;AAVE,AAAD,gBAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,UAAU;CAMxB;;AAJE,AAAD,6BAAc,CAAC;EACb,OAAO,EAAE,WAAW;EACpB,SAAS,EAAE,KAAK;CACjB",
+    "sources": [
+        "FooterTop.scss",
+        "../../../../styles/_responsive.scss"
+    ],
+    "names": [],
+    "file": "FooterTop.css"
+}

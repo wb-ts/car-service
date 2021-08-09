@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,yBAAQ,CAAC;EACP,mBAAmB,EAAE,6GACoC;EACzD,0BAA0B,EAAE,4BAA4B,CAAC,WAAW;EACpE,mBAAmB,EAAE,KAAK;EAC1B,WAAW,EAAE,MAAM;CAIpB;;AATA,AAMC,yBANM,AAML,MAAM,CAAC;EACN,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "HeaderNavsOptions.scss"
+    ],
+    "names": [],
+    "file": "HeaderNavsOptions.css"
+}

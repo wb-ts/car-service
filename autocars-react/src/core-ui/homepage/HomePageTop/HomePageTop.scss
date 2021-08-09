@@ -1,0 +1,142 @@
+@import "../../../styles/fontSizes";
+@import "../../../styles/responsive";
+
+@mixin svg($size) {
+  min-width: $size;
+  max-width: $size;
+}
+
+@mixin media($screenSize, $properties) {
+  @media (min-width: $screenSize) {
+    $properties: $properties;
+  }
+}
+
+.homePageTop {
+  display: flex;
+  align-items: center;
+
+  @include screen-sm {
+    margin: -180px 0;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    min-width: 100%;
+  }
+
+  &__left {
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+
+    @include screen-sm {
+      align-items: flex-start;
+      width: 50%;
+    }
+
+    @include screen-lg {
+      transform: translate(20%);
+    }
+
+    &__slogan {
+      font-size: $fnt-lg;
+
+      @include screen-lg {
+        font-size: $fnt-5xl;
+      }
+    }
+
+    &__description {
+      font-size: $fnt-sm;
+      max-width: 340px;
+      text-align: center;
+
+      @include screen-sm {
+        font-size: $fnt-xs;
+        text-align: left;
+      }
+
+      @include screen-lg {
+        font-size: $fnt-lg;
+        max-width: 500px;
+      }
+    }
+
+    &__buttons {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+
+  &__right {
+    display: none;
+
+    @include screen-sm {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      width: 50%;
+    }
+
+    &__blob {
+      @include screen-sm {
+        transform: rotate(-30deg) translate(15%, 5%);
+        @include svg(35rem);
+        z-index: -1;
+      }
+      @include screen-md {
+        @include svg(40rem);
+      }
+      @include screen-custom(900px) {
+        @include svg(44rem);
+      }
+
+      @include screen-custom(1100px) {
+        @include svg(50rem);
+      }
+
+      @include screen-xl {
+        @include svg(60rem);
+        transform: rotate(-30deg) translate(15%, 10%);
+      }
+    }
+
+    &__car {
+      @include screen-sm {
+        position: absolute;
+        top: 35%;
+        right: 15%;
+        width: 250px;
+      }
+
+      @include screen-md {
+        top: 35%;
+        right: 15%;
+        width: 300px;
+      }
+
+      @include screen-custom(900px) {
+        width: 350px;
+      }
+
+      @include screen-lg {
+        right: 5%;
+        width: 400px;
+      }
+
+      @include screen-custom(1100px) {
+        right: 15%;
+      }
+
+      @include screen-xl {
+        right: 5%;
+        width: 550px;
+      }
+    }
+  }
+}

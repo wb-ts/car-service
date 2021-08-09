@@ -1,0 +1,32 @@
+@import "../../../styles/responsive";
+
+.featuredCars {
+  margin: 7em 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &__title {
+    color: var(--theme);
+  }
+
+  &__cars {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    overflow-x: scroll;
+    max-width: 320px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    @include screen-md {
+      max-width: 650px;
+    }
+
+    @include screen-lg {
+      max-width: 990px;
+    }
+  }
+}

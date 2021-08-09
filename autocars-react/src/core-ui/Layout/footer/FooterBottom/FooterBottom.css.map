@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,yBAAyB;EAChD,GAAG,EAAE,IAAI;CASV;;ACKC,MAAM,EAAE,SAAS,EAAE,KAAK;EDjB1B,AAAA,aAAa,CAAC;IAMV,qBAAqB,EAAE,yBAAyB;GAMnD;;;ACWC,MAAM,EAAE,SAAS,EAAE,MAAM;EDvB3B,AAAA,aAAa,CAAC;IAUV,qBAAqB,EAAE,yBAAyB;GAEnD",
+    "sources": [
+        "FooterBottom.scss",
+        "../../../../styles/_responsive.scss"
+    ],
+    "names": [],
+    "file": "FooterBottom.css"
+}

@@ -1,0 +1,47 @@
+.featuredCars {
+  margin: 7em 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.featuredCars__title {
+  color: var(--theme);
+}
+
+.featuredCars__cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  overflow-x: scroll;
+  max-width: 320px;
+}
+
+.featuredCars__cars::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .featuredCars__cars {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .featuredCars__cars {
+    max-width: 990px;
+  }
+}
+/*# sourceMappingURL=FeaturedCars.css.map */

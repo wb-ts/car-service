@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;CASd;;ACOC,MAAM,EAAE,SAAS,EAAE,KAAK;EDjB1B,AAAA,WAAW,CAAC;IAIR,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IACnB,GAAG,EAAE,IAAI;IACT,OAAO,EAAE,MAAM;IACf,OAAO,EAAE,GAAG;GAEf",
+    "sources": [
+        "HeaderNavs.scss",
+        "../../../../styles/_responsive.scss"
+    ],
+    "names": [],
+    "file": "HeaderNavs.css"
+}

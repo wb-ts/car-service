@@ -1,0 +1,43 @@
+.sideMenu {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.911);
+  padding: 1rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 250px;
+  z-index: 100;
+}
+
+@media (min-width: 768px) {
+  .sideMenu {
+    display: none;
+  }
+}
+
+.sideMenu__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sideMenu__top__menuIcon svg {
+  fill: var(--theme);
+  cursor: pointer;
+}
+
+.sideMenu__options {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+/*# sourceMappingURL=SideMenu.css.map */

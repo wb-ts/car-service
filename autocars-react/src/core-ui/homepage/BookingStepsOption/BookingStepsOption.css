@@ -1,0 +1,42 @@
+.bookingStepsOption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+
+.bookingStepsOption__icon {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1.3px 12px -3px rgba(255, 255, 255, 0.4);
+          box-shadow: 0 1.3px 12px -3px rgba(255, 255, 255, 0.4);
+}
+
+.bookingStepsOption__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.3rem;
+}
+
+.bookingStepsOption__details__description {
+  font-size: 0.75rem;
+  max-width: 200px;
+  text-align: center;
+}
+/*# sourceMappingURL=BookingStepsOption.css.map */

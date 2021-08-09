@@ -1,0 +1,16 @@
+.headerNavsOptions__value {
+  -webkit-transition-property: background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ease-in-out;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ease-in-out;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  white-space: nowrap;
+}
+
+.headerNavsOptions__value:hover {
+  color: gray;
+}
+/*# sourceMappingURL=HeaderNavsOptions.css.map */

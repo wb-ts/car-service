@@ -1,0 +1,13 @@
+@import "../../../../styles/responsive";
+
+.headerNavs {
+  display: none;
+
+  @include screen-md {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    z-index: 100;
+  }
+}

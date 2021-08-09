@@ -1,0 +1,71 @@
+@import "../../../styles/responsive";
+@import "../../../styles/fontSizes";
+
+.calenderBox {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    box-shadow: 0 1.3px 12px -3px rgba(109, 97, 97, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 300px;
+
+    @include screen-sm {
+      flex-direction: row;
+      align-items: center;
+      padding: 1rem 0.5rem;
+    }
+
+    @include screen-md {
+      padding: 1rem;
+    }
+
+    &__line {
+      display: none;
+
+      @include screen-sm {
+        display: block;
+        height: 20px;
+        width: 1px;
+        background-color: var(--theme);
+      }
+    }
+
+    &__location {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: $fnt-sm;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    &__date {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      @include screen-xs {
+        font-size: $fnt-sm;
+      }
+
+      @include screen-md {
+        font-size: initial;
+      }
+
+      &__option {
+        cursor: pointer;
+        min-width: 75px;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+      }
+    }
+  }
+}

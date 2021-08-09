@@ -1,0 +1,34 @@
+.functionButton {
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+.functionButton__fill {
+  border: 2px solid transparent;
+}
+
+.functionButton__fill:hover {
+  background-color: transparent;
+  border-color: var(--theme);
+}
+
+.functionButton__outline {
+  background-color: transparent;
+  border: 2px solid var(--theme);
+}
+
+.functionButton__outline:hover {
+  background-color: var(--theme);
+  border-color: transparent;
+}
+
+.functionButton__text {
+  font-weight: bold;
+  white-space: nowrap;
+  color: white;
+}
+/*# sourceMappingURL=FunctionButton.css.map */

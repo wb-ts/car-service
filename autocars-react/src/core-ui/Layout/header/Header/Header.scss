@@ -1,0 +1,20 @@
+@import "../../../../styles/responsive";
+.header {
+  display: flex;
+  justify-content: space-around;
+
+  &__menuIcon {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+
+    svg {
+      fill: var(--theme);
+      cursor: pointer;
+    }
+
+    @include screen-md {
+      display: none;
+    }
+  }
+}

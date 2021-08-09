@@ -1,0 +1,35 @@
+.routerButton {
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 0.25rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.routerButton__fill {
+  background-color: var(--theme);
+  border: 2px solid transparent;
+}
+
+.routerButton__fill:hover {
+  background-color: transparent;
+  border-color: var(--theme);
+}
+
+.routerButton__outline {
+  background-color: transparent;
+  border: 2px solid var(--theme);
+}
+
+.routerButton__outline:hover {
+  background-color: var(--theme);
+  border-color: transparent;
+}
+
+.routerButton__text {
+  font-weight: bold;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=RouterButton.css.map */

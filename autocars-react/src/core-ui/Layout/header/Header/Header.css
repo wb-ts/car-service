@@ -1,0 +1,29 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header__menuIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+}
+
+.header__menuIcon svg {
+  fill: var(--theme);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .header__menuIcon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Header.css.map */
